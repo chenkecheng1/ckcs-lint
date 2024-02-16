@@ -1,0 +1,292 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '6.6.2',
+0 silly argv   '$0': 'node_modules/lerna/dist/cli.js'
+0 silly argv }
+1 notice cli v6.6.2
+2 verbose rootPath /Users/ckc/Desktop/yinke/ckcs-lint
+3 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+4 verbose session 31e64261c5e8a250
+5 verbose user-agent lerna/6.6.2/node@v16.20.2+x64 (darwin)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.6.2' }
+7 verbose rootPath /Users/ckc/Desktop/yinke/ckcs-lint
+8 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+9 info current version 1.0.11
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly getCurrentBranch
+13 verbose currentBranch main
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "v1.0.11-1-gfd3ea21e" => {"lastTagName":"v1.0.11","lastVersion":"v1.0.11","refCount":"1","sha":"fd3ea21e","isDirty":false}
+20 info Looking for changed packages since v1.0.11
+21 silly checking diff packages/ckcs-commitlint-config
+22 silly no diff found in ckcs-commitlint-config
+23 silly checking diff packages/ckcs-custom-eslint-plugin
+24 silly found diff in packages/ckcs-custom-eslint-plugin/README.md
+25 verbose filtered diff [ 'packages/ckcs-custom-eslint-plugin/README.md' ]
+26 silly checking diff packages/ckcs-lint-cli
+27 silly found diff in packages/ckcs-lint-cli/.eslintrc.js
+27 silly found diff in packages/ckcs-lint-cli/README.md
+27 silly found diff in packages/ckcs-lint-cli/package.json
+27 silly found diff in packages/ckcs-lint-cli/src/config/_eslintrc.js.ejs
+27 silly found diff in packages/ckcs-lint-cli/src/lints/eslint/getESLintConfigType.ts
+28 verbose filtered diff [
+28 verbose filtered diff   'packages/ckcs-lint-cli/.eslintrc.js',
+28 verbose filtered diff   'packages/ckcs-lint-cli/README.md',
+28 verbose filtered diff   'packages/ckcs-lint-cli/package.json',
+28 verbose filtered diff   'packages/ckcs-lint-cli/src/config/_eslintrc.js.ejs',
+28 verbose filtered diff   'packages/ckcs-lint-cli/src/lints/eslint/getESLintConfigType.ts'
+28 verbose filtered diff ]
+29 silly checking diff packages/ckcs-markdownlint-config
+30 silly no diff found in ckcs-markdownlint-config
+31 silly checking diff packages/ckcs-stylelint-config
+32 silly no diff found in ckcs-stylelint-config
+33 silly checking diff packages/eslint-config-ckcs
+34 silly found diff in packages/eslint-config-ckcs/.editorconfig
+34 silly found diff in packages/eslint-config-ckcs/.eslintignore
+34 silly found diff in packages/eslint-config-ckcs/.eslintrc.js
+34 silly found diff in packages/eslint-config-ckcs/.gitignore
+34 silly found diff in packages/eslint-config-ckcs/README.md
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/es5.js
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/index.js
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/node.js
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/react-display-name.js
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/react.jsx
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/ts-import-a.ts
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/ts-import-b.ts
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/ts-node.ts
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/ts-react.tsx
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/ts-vue.vue
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/ts.ts
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/tsconfig.json
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/use-babel-eslint.jsx
+34 silly found diff in packages/eslint-config-ckcs/__tests__/fixtures/vue.vue
+34 silly found diff in packages/eslint-config-ckcs/__tests__/use-babel-eslint.test.js
+34 silly found diff in packages/eslint-config-ckcs/__tests__/validate-js-configs.test.js
+34 silly found diff in packages/eslint-config-ckcs/__tests__/validate-ts-configs.test.js
+34 silly found diff in packages/eslint-config-ckcs/es5.js
+34 silly found diff in packages/eslint-config-ckcs/essential/es5.js
+34 silly found diff in packages/eslint-config-ckcs/essential/index.js
+34 silly found diff in packages/eslint-config-ckcs/essential/react.js
+34 silly found diff in packages/eslint-config-ckcs/essential/rules/blacklist.js
+34 silly found diff in packages/eslint-config-ckcs/essential/rules/es6-blacklist.js
+34 silly found diff in packages/eslint-config-ckcs/essential/rules/set-style-to-warn.js
+34 silly found diff in packages/eslint-config-ckcs/essential/rules/ts-blacklist.js
+34 silly found diff in packages/eslint-config-ckcs/essential/typescript/index.js
+34 silly found diff in packages/eslint-config-ckcs/essential/typescript/react.js
+34 silly found diff in packages/eslint-config-ckcs/essential/typescript/vue.js
+34 silly found diff in packages/eslint-config-ckcs/essential/vue.js
+34 silly found diff in packages/eslint-config-ckcs/index.js
+34 silly found diff in packages/eslint-config-ckcs/jsx-a11y.js
+34 silly found diff in packages/eslint-config-ckcs/node.js
+34 silly found diff in packages/eslint-config-ckcs/package.json
+34 silly found diff in packages/eslint-config-ckcs/react.js
+34 silly found diff in packages/eslint-config-ckcs/rules/base/best-practices.js
+34 silly found diff in packages/eslint-config-ckcs/rules/base/es6.js
+34 silly found diff in packages/eslint-config-ckcs/rules/base/possible-errors.js
+34 silly found diff in packages/eslint-config-ckcs/rules/base/strict.js
+34 silly found diff in packages/eslint-config-ckcs/rules/base/style.js
+34 silly found diff in packages/eslint-config-ckcs/rules/base/variables.js
+34 silly found diff in packages/eslint-config-ckcs/rules/es5.js
+34 silly found diff in packages/eslint-config-ckcs/rules/imports.js
+34 silly found diff in packages/eslint-config-ckcs/rules/jsx-a11y.js
+34 silly found diff in packages/eslint-config-ckcs/rules/node.js
+34 silly found diff in packages/eslint-config-ckcs/rules/react.js
+34 silly found diff in packages/eslint-config-ckcs/rules/typescript.js
+34 silly found diff in packages/eslint-config-ckcs/rules/vue.js
+34 silly found diff in packages/eslint-config-ckcs/typescript/index.js
+34 silly found diff in packages/eslint-config-ckcs/typescript/node.js
+34 silly found diff in packages/eslint-config-ckcs/typescript/react.js
+34 silly found diff in packages/eslint-config-ckcs/typescript/vue.js
+34 silly found diff in packages/eslint-config-ckcs/vue.js
+35 verbose filtered diff [
+35 verbose filtered diff   'packages/eslint-config-ckcs/.editorconfig',
+35 verbose filtered diff   'packages/eslint-config-ckcs/.eslintignore',
+35 verbose filtered diff   'packages/eslint-config-ckcs/.eslintrc.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/.gitignore',
+35 verbose filtered diff   'packages/eslint-config-ckcs/README.md',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/es5.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/index.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/node.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/react-display-name.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/react.jsx',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/ts-import-a.ts',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/ts-import-b.ts',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/ts-node.ts',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/ts-react.tsx',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/ts-vue.vue',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/ts.ts',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/tsconfig.json',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/use-babel-eslint.jsx',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/fixtures/vue.vue',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/use-babel-eslint.test.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/validate-js-configs.test.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/__tests__/validate-ts-configs.test.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/es5.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/essential/es5.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/essential/index.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/essential/react.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/essential/rules/blacklist.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/essential/rules/es6-blacklist.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/essential/rules/set-style-to-warn.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/essential/rules/ts-blacklist.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/essential/typescript/index.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/essential/typescript/react.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/essential/typescript/vue.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/essential/vue.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/index.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/jsx-a11y.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/node.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/package.json',
+35 verbose filtered diff   'packages/eslint-config-ckcs/react.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/base/best-practices.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/base/es6.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/base/possible-errors.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/base/strict.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/base/style.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/base/variables.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/es5.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/imports.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/jsx-a11y.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/node.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/react.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/typescript.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/rules/vue.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/typescript/index.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/typescript/node.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/typescript/react.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/typescript/vue.js',
+35 verbose filtered diff   'packages/eslint-config-ckcs/vue.js'
+35 verbose filtered diff ]
+36 verbose updated ckcs-custom-eslint-plugin
+37 verbose updated ckcs-lint-cli
+38 verbose updated eslint-config-ckcs
+39 verbose git-describe undefined => "v1.0.11-1-gfd3ea21e"
+40 silly git-describe parsed => {"lastTagName":"v1.0.11","lastVersion":"v1.0.11","refCount":"1","sha":"fd3ea21e","isDirty":false}
+41 info execute Skipping releases
+42 silly lifecycle No script for "preversion" in "ckcslint", continuing
+43 silly lifecycle No script for "preversion" in "ckcs-custom-eslint-plugin", continuing
+44 silly lifecycle No script for "preversion" in "eslint-config-ckcs", continuing
+45 verbose version eslint-config-ckcs has no lockfile. Skipping lockfile update.
+46 verbose version ckcs-custom-eslint-plugin has no lockfile. Skipping lockfile update.
+47 silly lifecycle No script for "version" in "eslint-config-ckcs", continuing
+48 silly lifecycle No script for "preversion" in "ckcs-lint-cli", continuing
+49 silly lifecycle No script for "version" in "ckcs-custom-eslint-plugin", continuing
+50 verbose version ckcs-lint-cli has no lockfile. Skipping lockfile update.
+51 silly lifecycle No script for "version" in "ckcs-lint-cli", continuing
+52 silly lifecycle No script for "version" in "ckcslint", continuing
+53 silly gitAdd [
+53 silly gitAdd   'packages/eslint-config-ckcs/package.json',
+53 silly gitAdd   'packages/ckcs-custom-eslint-plugin/package.json',
+53 silly gitAdd   'packages/ckcs-lint-cli/package.json',
+53 silly gitAdd   'lerna.json'
+53 silly gitAdd ]
+54 silly gitCommit chore(release): publish v1.0.12
+55 verbose git [ 'commit', '-m', 'chore(release): publish v1.0.12' ]
+56 silly gitTag v1.0.12 git tag %s -m %s
+57 verbose git [ 'tag', 'v1.0.12', '-m', 'v1.0.12' ]
+58 silly lifecycle No script for "postversion" in "ckcs-custom-eslint-plugin", continuing
+59 silly lifecycle No script for "postversion" in "ckcs-lint-cli", continuing
+60 silly lifecycle No script for "postversion" in "eslint-config-ckcs", continuing
+61 silly lifecycle No script for "postversion" in "ckcslint", continuing
+62 info git Pushing tags...
+63 silly gitPush origin main
+64 info publish Publishing packages to npm...
+65 notice Skipping all user and access validation due to third-party registry
+66 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+67 silly getCurrentSHA
+68 verbose getCurrentSHA c6e3d18998b54d5d21339503c970cae35e4e3446
+69 warn lifecycle Skipping root "prepublish" because it has already been called
+70 silly lifecycle "prepare" starting in "ckcslint"
+71 info lifecycle ckcslint@undefined~prepare: ckcslint@undefined
+72 silly lifecycle "prepare" finished in "ckcslint"
+73 silly lifecycle No script for "prepublishOnly" in "ckcslint", continuing
+74 silly lifecycle No script for "prepack" in "ckcslint", continuing
+75 verbose pack-directory packages/ckcs-custom-eslint-plugin
+76 verbose pack-directory packages/eslint-config-ckcs
+77 silly lifecycle No script for "prepublish" in "ckcs-custom-eslint-plugin", continuing
+78 silly lifecycle No script for "prepublish" in "eslint-config-ckcs", continuing
+79 silly lifecycle No script for "prepare" in "ckcs-custom-eslint-plugin", continuing
+80 silly lifecycle No script for "prepare" in "eslint-config-ckcs", continuing
+81 silly lifecycle "prepublishOnly" starting in "ckcs-custom-eslint-plugin"
+82 info lifecycle ckcs-custom-eslint-plugin@1.0.12~prepublishOnly: ckcs-custom-eslint-plugin@1.0.12
+83 silly lifecycle No script for "prepublishOnly" in "eslint-config-ckcs", continuing
+84 silly lifecycle No script for "prepack" in "eslint-config-ckcs", continuing
+85 silly lifecycle No script for "postpack" in "eslint-config-ckcs", continuing
+86 verbose packed packages/eslint-config-ckcs
+87 verbose pack-directory packages/ckcs-lint-cli
+88 silly lifecycle No script for "prepublish" in "ckcs-lint-cli", continuing
+89 silly lifecycle No script for "prepare" in "ckcs-lint-cli", continuing
+90 silly lifecycle "prepublishOnly" starting in "ckcs-lint-cli"
+91 info lifecycle ckcs-lint-cli@1.0.12~prepublishOnly: ckcs-lint-cli@1.0.12
+92 silly lifecycle "prepublishOnly" finished in "ckcs-custom-eslint-plugin"
+93 silly lifecycle No script for "prepack" in "ckcs-custom-eslint-plugin", continuing
+94 silly lifecycle No script for "postpack" in "ckcs-custom-eslint-plugin", continuing
+95 verbose packed packages/ckcs-custom-eslint-plugin
+96 silly lifecycle "prepublishOnly" finished in "ckcs-lint-cli"
+97 silly lifecycle No script for "prepack" in "ckcs-lint-cli", continuing
+98 silly lifecycle No script for "postpack" in "ckcs-lint-cli", continuing
+99 verbose packed packages/ckcs-lint-cli
+100 silly lifecycle No script for "postpack" in "ckcslint", continuing
+101 verbose publish ckcs-custom-eslint-plugin
+102 verbose publish eslint-config-ckcs
+103 silly lifecycle No script for "publish" in "ckcs-custom-eslint-plugin", continuing
+104 silly lifecycle No script for "postpublish" in "ckcs-custom-eslint-plugin", continuing
+105 success published ckcs-custom-eslint-plugin 1.0.12
+106 notice
+107 notice 📦  ckcs-custom-eslint-plugin@1.0.12
+108 notice === Tarball Contents ===
+109 notice 1.1kB LICENSE
+109 notice 1.6kB rules/no-broad-semantic-versioning.js
+109 notice 583B  rules/no-http-url.js
+109 notice 1.3kB rules/no-js-in-ts-project.js
+109 notice 1.4kB rules/no-secret-info.js
+109 notice 190B  configs/recommended.js
+109 notice 572B  package.json
+109 notice 1.1kB README.md
+110 notice === Tarball Details ===
+111 notice name:          ckcs-custom-eslint-plugin
+111 notice version:       1.0.12
+111 notice filename:      ckcs-custom-eslint-plugin-1.0.12.tgz
+111 notice package size:  3.1 kB
+111 notice unpacked size: 7.8 kB
+111 notice shasum:        48871c64e3f2e7ddd1e75ca2846647dbceb144ac
+111 notice integrity:     sha512-KFSUO62RTCUu9[...]CKe8WceNcXZDQ==
+111 notice total files:   8
+112 notice
+113 silly FetchError: request to https://registry.npmjs.org/eslint-config-ckcs failed, reason: connect ETIMEDOUT 104.16.0.35:443
+113 silly     at ClientRequest.<anonymous> (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:130:14)
+113 silly     at ClientRequest.emit (node:events:513:28)
+113 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+113 silly     at TLSSocket.emit (node:events:525:35)
+113 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+113 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+113 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+113 silly  FetchError: request to https://registry.npmjs.org/eslint-config-ckcs failed, reason: connect ETIMEDOUT 104.16.0.35:443
+113 silly     at ClientRequest.<anonymous> (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:130:14)
+113 silly     at ClientRequest.emit (node:events:513:28)
+113 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+113 silly     at TLSSocket.emit (node:events:525:35)
+113 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+113 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+113 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+113 silly   code: 'ETIMEDOUT',
+113 silly   errno: 'ETIMEDOUT',
+113 silly   syscall: 'connect',
+113 silly   address: '104.16.0.35',
+113 silly   port: 443,
+113 silly   type: 'system'
+113 silly }
+114 error ETIMEDOUT request to https://registry.npmjs.org/eslint-config-ckcs failed, reason: connect ETIMEDOUT 104.16.0.35:443
+115 error FetchError: request to https://registry.npmjs.org/eslint-config-ckcs failed, reason: connect ETIMEDOUT 104.16.0.35:443
+115 error     at ClientRequest.<anonymous> (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:130:14)
+115 error     at ClientRequest.emit (node:events:513:28)
+115 error     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+115 error     at TLSSocket.emit (node:events:525:35)
+115 error     at emitErrorNT (node:internal/streams/destroy:157:8)
+115 error     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
