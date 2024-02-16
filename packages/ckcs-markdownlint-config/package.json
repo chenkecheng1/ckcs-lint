@@ -1,6 +1,6 @@
 {
   "name": "ckcs-markdownlint-config",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "main": "index.json",
   "description": " 文档规范",
   "keywords": [
@@ -9,7 +9,6 @@
     "lint"
   ],
   "author": "ckc",
- 
   "peerDependencies": {
     "markdownlint": "^0.28.1"
   }

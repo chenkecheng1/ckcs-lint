@@ -1,6 +1,6 @@
 {
   "name": "ckcs-stylelint-config",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": " CSS规范",
   "main": "index.js",
   "keywords": [
@@ -12,7 +12,6 @@
     "test": "jest"
   },
   "author": "ckc",
-  
   "peerDependencies": {
     "stylelint": ">=8.3.0",
     "stylelint-scss": ">=2.0.0"
@@ -22,5 +21,4 @@
     "stylelint": "^14.3.0",
     "stylelint-scss": "^4.1.0"
   }
-  
 }

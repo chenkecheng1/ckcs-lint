@@ -1,6 +1,6 @@
 {
   "name": "ckcs-eslint-config",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "main": "index.js",
   "description": " JavaScript TypeScript Node 规范",
   "keywords": [
@@ -16,7 +16,6 @@
     "print-config": "eslint --print-config ./index.js > ./print-config.json"
   },
   "author": "ckc",
-  
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/eslint-parser": "^7.16.3",

@@ -1,6 +1,6 @@
 {
   "name": "ckcs-custom-eslint-plugin",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "自定义eslint插件",
   "scripts": {
     "test": "jest",
@@ -18,7 +18,6 @@
   ],
   "main": "src/index.js",
   "author": "ckc",
-  
   "dependencies": {
     "fs-extra": "^9.0.1",
     "require-all": "^3.0.0"
