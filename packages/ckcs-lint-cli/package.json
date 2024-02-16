@@ -85,5 +85,6 @@
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0"
   },
-  "author": "ckc"
+  "author": "ckc",
+  "gitHead": "f2ff8794e47ddc9e02364229d405ef6706b47bd7"
 }

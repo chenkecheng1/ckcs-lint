@@ -11,5 +11,6 @@
   "author": "ckc",
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^4.5.0"
-  }
+  },
+  "gitHead": "f2ff8794e47ddc9e02364229d405ef6706b47bd7"
 }

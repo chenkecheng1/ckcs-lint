@@ -11,5 +11,6 @@
   "author": "ckc",
   "peerDependencies": {
     "markdownlint": "^0.28.1"
-  }
+  },
+  "gitHead": "f2ff8794e47ddc9e02364229d405ef6706b47bd7"
 }
