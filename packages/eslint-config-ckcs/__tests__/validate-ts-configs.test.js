@@ -12,7 +12,7 @@ function isObject(obj) {
 }
 
 describe("Validate TS configs", () => {
-  it("Validate ckcs-eslint-config/typescript", async () => {
+  it("Validate eslint-config-ckcs/typescript", async () => {
     const configPath = "./typescript/index.js";
     const filePath = path.join(__dirname, "./fixtures/ts.ts");
 
@@ -58,7 +58,7 @@ describe("Validate TS configs", () => {
     assert.ok(reports2.errorCount !== 0 || reports2.warnCount !== 0);
   });
 
-  it("Validate ckcs-eslint-config/typescript/vue", async () => {
+  it("Validate eslint-config-ckcs/typescript/vue", async () => {
     const configPath = "./typescript/vue.js";
     const filePath = path.join(__dirname, "./fixtures/ts-vue.vue");
 
@@ -97,7 +97,7 @@ describe("Validate TS configs", () => {
     assert.notEqual(errorReportedByTSPlugin.length, 0);
   });
 
-  it("Validate ckcs-eslint-config/essential/typescript", async () => {
+  it("Validate eslint-config-ckcs/essential/typescript", async () => {
     const configPath = "./essential/typescript/index.js";
     const filePath = path.join(__dirname, "./fixtures/ts.ts");
 
@@ -138,7 +138,7 @@ describe("Validate TS configs", () => {
     assert.equal(styleErrors[0].severity, 1);
   });
 
-  it("Validate ckcs-eslint-config/essential/typescript/react", async () => {
+  it("Validate eslint-config-ckcs/essential/typescript/react", async () => {
     const configPath = "./essential/typescript/react.js";
     const filePath = path.join(__dirname, "./fixtures/ts-react.tsx");
 
@@ -189,7 +189,7 @@ describe("Validate TS configs", () => {
     assert.equal(errorReportedByReactPluginBlackList.length, 0);
   });
 
-  it("Validate ckcs-eslint-config/essential/typescript/vue", async () => {
+  it("Validate eslint-config-ckcs/essential/typescript/vue", async () => {
     const configPath = "./essential/typescript/vue.js";
     const filePath = path.join(__dirname, "./fixtures/ts-vue.vue");
 
@@ -230,7 +230,7 @@ describe("Validate TS configs", () => {
     assert.equal(errorReportedByReactPluginBlackList.length, 0);
   });
 
-  it("Validate ckcs-eslint-config/typescript/node", async () => {
+  it("Validate eslint-config-ckcs/typescript/node", async () => {
     const configPath = "./typescript/node.js";
     const filePath = path.join(__dirname, "./fixtures/ts-node.ts");
 

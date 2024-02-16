@@ -40,7 +40,7 @@ features:
 
 | 规范                                                              | Lint 工具                                                      | NPM 包                                                                                 |
 | ----------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                                  | [ckcs-eslint-config](https://www.npmjs.com/package/ckcs-eslint-config)             |
+| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                                  | [eslint-config-ckcs](https://www.npmjs.com/package/eslint-config-ckcs)             |
 | CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                             | [ckcs-stylelint-config](https://www.npmjs.com/package/ckcs-stylelint-config)       |
 | Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                     | [ckcs-commitlint-config](https://www.npmjs.com/package/ckcs-commitlint-config)     |
 | 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint)     | [ckcs-markdownlint-config](https://www.npmjs.com/package/ckcs-markdownlint-config) |

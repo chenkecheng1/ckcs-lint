@@ -1,3 +1,3 @@
-module.exports = { extends: [ '<%= eslintType === 'index' ? 'ckcs-eslint-config' :
-`ckcs-eslint-config/${eslintType}` %>', <%_ if (enablePrettier) { _%> 'prettier', <%_ } _%> ],
+module.exports = { extends: [ '<%= eslintType === 'index' ? 'eslint-config-ckcs' :
+`eslint-config-ckcs/${eslintType}` %>', <%_ if (enablePrettier) { _%> 'prettier', <%_ } _%> ],
 };

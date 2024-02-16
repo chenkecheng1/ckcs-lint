@@ -1,5 +1,5 @@
 {
-  "name": "ckcs-eslint-config",
+  "name": "eslint-config-ckcs",
   "version": "1.0.11",
   "main": "index.js",
   "description": " JavaScript TypeScript Node 规范",

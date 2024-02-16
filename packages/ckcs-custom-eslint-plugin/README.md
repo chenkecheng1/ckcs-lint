@@ -15,7 +15,7 @@ $ npm install ckcs-custom-eslint-plugin eslint --save-dev
 ```js
 // .eslintrc.js
 module.exports = {
-  plugin: ['ckcs-eslint-config'],
+  plugin: ['eslint-config-ckcs'],
   rules: {
     'ckcs-custom-eslint-plugin/no-secret-info': 'error',
   },

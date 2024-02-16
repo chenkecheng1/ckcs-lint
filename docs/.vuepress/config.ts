@@ -33,7 +33,7 @@ export default defineConfig4CustomTheme({
       {
         text: 'NPM包',
         items: [
-          { text: 'ckcs-eslint-config', link: '/npm/eslint.md' },
+          { text: 'eslint-config-ckcs', link: '/npm/eslint.md' },
           { text: 'ckcs-stylelint-config', link: '/npm/stylelint.md' },
           { text: 'ckcs-commitlint-config', link: '/npm/commitlint.md' },
           { text: 'ckcs-markdownlint-config', link: '/npm/markdownlint.md' },
@@ -91,7 +91,7 @@ export default defineConfig4CustomTheme({
       {
         title: 'NPM包',
         children: [
-          { title: 'ckcs-eslint-config', path: '/npm/eslint.md' },
+          { title: 'eslint-config-ckcs', path: '/npm/eslint.md' },
           { title: 'ckcs-stylelint-config', path: '/npm/stylelint.md' },
           { title: 'ckcs-commitlint-config', path: '/npm/commitlint.md' },
           { title: 'ckcs-markdownlint-config', path: '/npm/markdownlint.md' },

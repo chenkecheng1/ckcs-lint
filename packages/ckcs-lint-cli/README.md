@@ -8,7 +8,7 @@
 
 | 规范                                                              | Lint 工具                                                  | npm 包                                                                                 |
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                              | [ckcs-eslint-config](https://www.npmjs.com/package/ckcs-eslint-config)             |
+| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                              | [eslint-config-ckcs](https://www.npmjs.com/package/eslint-config-ckcs)             |
 | CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                         | [ckcs-stylelint-config](https://www.npmjs.com/package/ckcs-stylelint-config) |
 | Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                 | [ckcs-commitlint-config](https://www.npmjs.com/package/ckcs-commitlint-config)     |
 | 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint) | [ckcs-markdownlint-config](https://www.npmjs.com/package/ckcs-markdownlint-config) |
@@ -37,9 +37,9 @@ npm install ckcs-lint-cli -g
 
 具体会做以下事情：
 
-- 安装各种依赖：包括 `Linter` 依赖，如 [ESLint](https://eslint.org/)、[stylelint](https://stylelint.io/)、[commitlint](https://commitlint.js.org/#/)、[markdownlint](https://github.com/DavidAnson/markdownlint) 等；配置依赖，如 [ckcs-eslint-config](https://www.npmjs.com/package/ckcs-eslint-config)、[ckcs-stylelint-config](https://www.npmjs.com/package/ckcs-stylelint-config)、[ckcs-commitlint-config](https://www.npmjs.com/package/ckcs-commitlint-config)、[ckcs-markdownlint-config](https://www.npmjs.com/package/ckcs-markdownlint-config) 等
+- 安装各种依赖：包括 `Linter` 依赖，如 [ESLint](https://eslint.org/)、[stylelint](https://stylelint.io/)、[commitlint](https://commitlint.js.org/#/)、[markdownlint](https://github.com/DavidAnson/markdownlint) 等；配置依赖，如 [eslint-config-ckcs](https://www.npmjs.com/package/eslint-config-ckcs)、[ckcs-stylelint-config](https://www.npmjs.com/package/ckcs-stylelint-config)、[ckcs-commitlint-config](https://www.npmjs.com/package/ckcs-commitlint-config)、[ckcs-markdownlint-config](https://www.npmjs.com/package/ckcs-markdownlint-config) 等
 - 写入各种配置文件，包括：
-  - `.eslintrc.js`、`.eslintignore`：ESLint 配置（继承 `ckcs-eslint-config`）及黑名单文件
+  - `.eslintrc.js`、`.eslintignore`：ESLint 配置（继承 `eslint-config-ckcs`）及黑名单文件
   - `.stylelintrc.js`、`.stylelintignore`：stylelint 配置（继承 `ckcs-stylelint-config`）及黑名单文件
   - `commitlint.config.js`：commitlint 配置（继承 `ckcs-commitlint-config`）
   - `.markdownlint.json`、`.markdownlintignore`：`markdownlint` 配置及黑名单文件
