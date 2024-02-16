@@ -1,6 +1,6 @@
 {
   "name": "ckcs-lint-cli",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "前端编码规范工程化标准脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
@@ -49,7 +49,6 @@
     "@typescript-eslint/parser": "^5.0.0",
     "chalk": "^4.1.0",
     "ckcs-commitlint-config": "^1.0.11",
-    "eslint-config-ckcs": "^1.0.11",
     "ckcs-markdownlint-config": "^1.0.11",
     "ckcs-stylelint-config": "^1.0.11",
     "command-exists": "^1.2.9",
@@ -57,6 +56,7 @@
     "cross-spawn": "^7.0.3",
     "ejs": "^3.1.5",
     "eslint": "^8.7.0",
+    "eslint-config-ckcs": "^1.0.12",
     "eslint-config-egg": "^10.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^2.5.0",
