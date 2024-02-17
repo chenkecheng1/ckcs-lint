@@ -60,7 +60,7 @@ importers:
         specifier: ^4.5.0
         version: 4.6.3
 
-  packages/ckcs-custom-eslint-plugin:
+  packages/eslint-plugin-ckcs-custom:
     dependencies:
       fs-extra:
         specifier: ^9.0.1

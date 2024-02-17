@@ -1,5 +1,5 @@
 ---
-title: ckcs-custom-eslint-plugin
+title: eslint-plugin-ckcs-custom
 categories:
   - 工程规范
 tags:
@@ -9,12 +9,12 @@ author:
   link: https://github.com/encode-studio-fe/fe-spec
 ---
 
-# ckcs-custom-eslint-plugin
+# eslint-plugin-ckcs-custom
 
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
 
 ```shell
-$ npm install ckcs-custom-eslint-plugin eslint --save-dev
+$ npm install eslint-plugin-ckcs-custom eslint --save-dev
 ```
 
 ## 使用
@@ -26,7 +26,7 @@ $ npm install ckcs-custom-eslint-plugin eslint --save-dev
 module.exports = {
   plugin: ['eslint-config-ckcs'],
   rules: {
-    'ckcs-custom-eslint-plugin/no-secret-info': 'error',
+    'eslint-plugin-ckcs-custom/no-secret-info': 'error',
   },
 };
 ```
@@ -36,7 +36,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: 'plugin:ckcs-custom-eslint-plugin/recommended',
+  extends: 'plugin:eslint-plugin-ckcs-custom/recommended',
 };
 ```
 

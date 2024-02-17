@@ -37,7 +37,7 @@ export default defineConfig4CustomTheme({
           { text: 'ckcs-stylelint-config', link: '/npm/stylelint.md' },
           { text: 'ckcs-commitlint-config', link: '/npm/commitlint.md' },
           { text: 'ckcs-markdownlint-config', link: '/npm/markdownlint.md' },
-          { text: 'ckcs-custom-eslint-plugin', link: '/npm/eslint-plugin.md' },
+          { text: 'eslint-plugin-ckcs-custom', link: '/npm/eslint-plugin.md' },
         ],
       },
       {
@@ -95,7 +95,7 @@ export default defineConfig4CustomTheme({
           { title: 'ckcs-stylelint-config', path: '/npm/stylelint.md' },
           { title: 'ckcs-commitlint-config', path: '/npm/commitlint.md' },
           { title: 'ckcs-markdownlint-config', path: '/npm/markdownlint.md' },
-          { title: 'ckcs-custom-eslint-plugin', path: '/npm/eslint-plugin.md' },
+          { title: 'eslint-plugin-ckcs-custom', path: '/npm/eslint-plugin.md' },
         ],
       },
       {
