@@ -7,12 +7,12 @@
 1 notice cli v6.6.2
 2 verbose rootPath /Users/ckc/Desktop/yinke/ckcs-lint
 3 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
-4 verbose session 2eb4d225beff3c10
+4 verbose session c6498951acf0bdf3
 5 verbose user-agent lerna/6.6.2/node@v16.20.2+x64 (darwin)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.6.2' }
 7 verbose rootPath /Users/ckc/Desktop/yinke/ckcs-lint
 8 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
-9 info current version 1.0.12
+9 info current version 1.0.13
 10 silly isAnythingCommitted
 11 verbose isAnythingCommitted 1
 12 silly getCurrentBranch
@@ -22,8 +22,8 @@
 16 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
 17 silly hasTags
 18 verbose hasTags true
-19 silly git-describe.sync "v1.0.12-1-gce1299dd" => {"lastTagName":"v1.0.12","lastVersion":"v1.0.12","refCount":"1","sha":"ce1299dd","isDirty":false}
-20 info Looking for changed packages since v1.0.12
+19 silly git-describe.sync "v1.0.13-1-g489a50c9" => {"lastTagName":"v1.0.13","lastVersion":"v1.0.13","refCount":"1","sha":"489a50c9","isDirty":false}
+20 info Looking for changed packages since v1.0.13
 21 silly checking diff packages/ckcs-commitlint-config
 22 silly no diff found in ckcs-commitlint-config
 23 silly checking diff packages/ckcs-custom-eslint-plugin
@@ -42,8 +42,8 @@
 36 verbose updated ckcs-custom-eslint-plugin
 37 verbose updated ckcs-lint-cli
 38 verbose updated eslint-config-ckcs
-39 verbose git-describe undefined => "v1.0.12-1-gce1299dd"
-40 silly git-describe parsed => {"lastTagName":"v1.0.12","lastVersion":"v1.0.12","refCount":"1","sha":"ce1299dd","isDirty":false}
+39 verbose git-describe undefined => "v1.0.13-1-g489a50c9"
+40 silly git-describe parsed => {"lastTagName":"v1.0.13","lastVersion":"v1.0.13","refCount":"1","sha":"489a50c9","isDirty":false}
 41 info execute Skipping releases
 42 silly lifecycle No script for "preversion" in "ckcslint", continuing
 43 silly lifecycle No script for "preversion" in "ckcs-custom-eslint-plugin", continuing
@@ -62,10 +62,10 @@
 53 silly gitAdd   'packages/ckcs-lint-cli/package.json',
 53 silly gitAdd   'lerna.json'
 53 silly gitAdd ]
-54 silly gitCommit chore(release): publish v1.0.13
-55 verbose git [ 'commit', '-m', 'chore(release): publish v1.0.13' ]
-56 silly gitTag v1.0.13 git tag %s -m %s
-57 verbose git [ 'tag', 'v1.0.13', '-m', 'v1.0.13' ]
+54 silly gitCommit chore(release): publish v1.0.14
+55 verbose git [ 'commit', '-m', 'chore(release): publish v1.0.14' ]
+56 silly gitTag v1.0.14 git tag %s -m %s
+57 verbose git [ 'tag', 'v1.0.14', '-m', 'v1.0.14' ]
 58 silly lifecycle No script for "postversion" in "ckcs-custom-eslint-plugin", continuing
 59 silly lifecycle No script for "postversion" in "ckcs-lint-cli", continuing
 60 silly lifecycle No script for "postversion" in "eslint-config-ckcs", continuing
@@ -76,7 +76,7 @@
 65 notice Skipping all user and access validation due to third-party registry
 66 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
 67 silly getCurrentSHA
-68 verbose getCurrentSHA 3777554b077a0e60db1a395cebb325d6d05a3314
+68 verbose getCurrentSHA 11602d3ecac1ba265c1fd9100561785ca8f5372b
 69 warn lifecycle Skipping root "prepublish" because it has already been called
 70 silly lifecycle "prepare" starting in "ckcslint"
 71 info lifecycle ckcslint@undefined~prepare: ckcslint@undefined
@@ -89,9 +89,9 @@
 78 silly lifecycle No script for "prepublish" in "eslint-config-ckcs", continuing
 79 silly lifecycle No script for "prepare" in "ckcs-custom-eslint-plugin", continuing
 80 silly lifecycle No script for "prepare" in "eslint-config-ckcs", continuing
-81 silly lifecycle "prepublishOnly" starting in "ckcs-custom-eslint-plugin"
-82 info lifecycle ckcs-custom-eslint-plugin@1.0.13~prepublishOnly: ckcs-custom-eslint-plugin@1.0.13
-83 silly lifecycle No script for "prepublishOnly" in "eslint-config-ckcs", continuing
+81 silly lifecycle No script for "prepublishOnly" in "eslint-config-ckcs", continuing
+82 silly lifecycle "prepublishOnly" starting in "ckcs-custom-eslint-plugin"
+83 info lifecycle ckcs-custom-eslint-plugin@1.0.14~prepublishOnly: ckcs-custom-eslint-plugin@1.0.14
 84 silly lifecycle No script for "prepack" in "eslint-config-ckcs", continuing
 85 silly lifecycle No script for "postpack" in "eslint-config-ckcs", continuing
 86 verbose packed packages/eslint-config-ckcs
@@ -99,7 +99,7 @@
 88 silly lifecycle No script for "prepublish" in "ckcs-lint-cli", continuing
 89 silly lifecycle No script for "prepare" in "ckcs-lint-cli", continuing
 90 silly lifecycle "prepublishOnly" starting in "ckcs-lint-cli"
-91 info lifecycle ckcs-lint-cli@1.0.13~prepublishOnly: ckcs-lint-cli@1.0.13
+91 info lifecycle ckcs-lint-cli@1.0.14~prepublishOnly: ckcs-lint-cli@1.0.14
 92 silly lifecycle "prepublishOnly" finished in "ckcs-custom-eslint-plugin"
 93 silly lifecycle No script for "prepack" in "ckcs-custom-eslint-plugin", continuing
 94 silly lifecycle No script for "postpack" in "ckcs-custom-eslint-plugin", continuing
@@ -111,200 +111,34 @@
 100 silly lifecycle No script for "postpack" in "ckcslint", continuing
 101 verbose publish ckcs-custom-eslint-plugin
 102 verbose publish eslint-config-ckcs
-103 silly lifecycle No script for "publish" in "eslint-config-ckcs", continuing
-104 silly lifecycle No script for "postpublish" in "eslint-config-ckcs", continuing
-105 success published eslint-config-ckcs 1.0.13
-106 notice
-107 notice 📦  eslint-config-ckcs@1.0.13
-108 notice === Tarball Contents ===
-109 notice 261B   .editorconfig
-109 notice 169B   .eslintignore
-109 notice 1.1kB  LICENSE
-109 notice 76B    .eslintrc.js
-109 notice 7.8kB  rules/base/best-practices.js
-109 notice 1.1kB  essential/rules/blacklist.js
-109 notice 59B    __tests__/fixtures/es5.js
-109 notice 221B   es5.js
-109 notice 262B   essential/es5.js
-109 notice 223B   rules/es5.js
-109 notice 1.6kB  essential/rules/es6-blacklist.js
-109 notice 4.3kB  rules/base/es6.js
-109 notice 4.9kB  rules/imports.js
-109 notice 52B    __tests__/fixtures/index.js
-109 notice 251B   essential/index.js
-109 notice 136B   essential/typescript/index.js
-109 notice 511B   index.js
-109 notice 104B   typescript/index.js
-109 notice 85B    jsx-a11y.js
-109 notice 806B   rules/jsx-a11y.js
-109 notice 441B   __tests__/fixtures/node.js
-109 notice 96B    node.js
-109 notice 320B   rules/node.js
-109 notice 97B    typescript/node.js
-109 notice 4.0kB  rules/base/possible-errors.js
-109 notice 92B    __tests__/fixtures/react-display-name.js
-109 notice 2.2kB  essential/react.js
-109 notice 136B   essential/typescript/react.js
-109 notice 188B   react.js
-109 notice 10.6kB rules/react.js
-109 notice 104B   typescript/react.js
-109 notice 814B   essential/rules/set-style-to-warn.js
-109 notice 95B    rules/base/strict.js
-109 notice 12.0kB rules/base/style.js
-109 notice 332B   essential/rules/ts-blacklist.js
-109 notice 27.6kB rules/typescript.js
-109 notice 1.4kB  __tests__/use-babel-eslint.test.js
-109 notice 9.3kB  __tests__/validate-js-configs.test.js
-109 notice 9.5kB  __tests__/validate-ts-configs.test.js
-109 notice 1.3kB  rules/base/variables.js
-109 notice 219B   essential/typescript/vue.js
-109 notice 162B   essential/vue.js
-109 notice 3.0kB  rules/vue.js
-109 notice 236B   typescript/vue.js
-109 notice 230B   vue.js
-109 notice 1.2kB  package.json
-109 notice 73B    __tests__/fixtures/tsconfig.json
-109 notice 4.0kB  __tests__/fixtures/react.jsx
-109 notice 4.7kB  __tests__/fixtures/use-babel-eslint.jsx
-109 notice 12.9kB README.md
-109 notice 56B    __tests__/fixtures/ts-import-a.ts
-109 notice 56B    __tests__/fixtures/ts-import-b.ts
-109 notice 298B   __tests__/fixtures/ts-node.ts
-109 notice 344B   __tests__/fixtures/ts.ts
-109 notice 495B   __tests__/fixtures/ts-react.tsx
-109 notice 765B   __tests__/fixtures/ts-vue.vue
-109 notice 241B   __tests__/fixtures/vue.vue
-110 notice === Tarball Details ===
-111 notice name:          eslint-config-ckcs
-111 notice version:       1.0.13
-111 notice filename:      eslint-config-ckcs-1.0.13.tgz
-111 notice package size:  32.7 kB
-111 notice unpacked size: 133.5 kB
-111 notice shasum:        9f796662477dfadb8b4d7e3614cbfec379e96f3c
-111 notice integrity:     sha512-iuSE/JogKeBtF[...]O/LR9pSb/XqPg==
-111 notice total files:   57
-112 notice
-113 verbose publish ckcs-lint-cli
-114 silly lifecycle No script for "publish" in "ckcs-lint-cli", continuing
-115 silly lifecycle No script for "postpublish" in "ckcs-lint-cli", continuing
-116 success published ckcs-lint-cli 1.0.13
-117 notice
-118 notice 📦  ckcs-lint-cli@1.0.13
-119 notice === Tarball Contents ===
-120 notice 1.1kB  LICENSE
-120 notice 208B   lib/config/_editorconfig.ejs
-120 notice 85B    lib/config/_eslintignore.ejs
-120 notice 181B   lib/config/_eslintrc.js.ejs
-120 notice 86B    lib/config/_markdownlint.json.ejs
-120 notice 112B   lib/config/_markdownlintignore.ejs
-120 notice 140B   lib/config/_prettierrc.js.ejs
-120 notice 106B   lib/config/_stylelintignore.ejs
-120 notice 100B   lib/config/_stylelintrc.js.ejs
-120 notice 45B    lib/config/commitlint.config.js.ejs
-120 notice 192B   lib/config/encode-fe-lint.config.js.ejs
-120 notice 124B   lib/config/_vscode/extensions.json.ejs
-120 notice 1.6kB  lib/config/_vscode/settings.json.ejs
-120 notice 12.0kB lib/cli.js
-120 notice 9.5kB  lib/utils/conflict-resolve.js
-120 notice 4.0kB  lib/utils/constants.js
-120 notice 4.6kB  lib/lints/eslint/doESLint.js
-120 notice 6.7kB  lib/lints/markdownlint/doMarkdownlint.js
-120 notice 5.4kB  lib/lints/prettier/doPrettier.js
-120 notice 4.9kB  lib/lints/stylelint/doStylelint.js
-120 notice 1.8kB  lib/lints/eslint/formatESLintResults.js
-120 notice 1.5kB  lib/lints/markdownlint/formatMarkdownlintResults.js
-120 notice 1.5kB  lib/lints/stylelint/formatStylelintResults.js
-120 notice 4.3kB  lib/utils/generate-template.js
-120 notice 2.7kB  lib/lints/eslint/getESLintConfig.js
-120 notice 1.3kB  lib/lints/eslint/getESLintConfigType.js
-120 notice 1.2kB  lib/lints/markdownlint/getMarkdownlintConfig.js
-120 notice 1.4kB  lib/lints/stylelint/getStylelintConfig.js
-120 notice 515B   lib/lints/stylelint/getStylelintDocUrl.js
-120 notice 5.2kB  lib/utils/git.js
-120 notice 4.9kB  ./lib/index.js
-120 notice 4.9kB  lib/index.js
-120 notice 913B   lib/lints/eslint/index.js
-120 notice 944B   lib/lints/index.js
-120 notice 931B   lib/lints/markdownlint/index.js
-120 notice 805B   lib/lints/prettier/index.js
-120 notice 922B   lib/lints/stylelint/index.js
-120 notice 11.7kB lib/actions/init.js
-120 notice 938B   lib/utils/log.js
-120 notice 302B   lib/utils/npm-type.js
-120 notice 4.7kB  lib/utils/print-report.js
-120 notice 7.1kB  lib/actions/scan.js
-120 notice 77B    lib/types.js
-120 notice 6.3kB  lib/actions/update.js
-120 notice 2.6kB  package.json
-120 notice 12.0kB README.md
-120 notice 31B    lib/cli.d.ts
-120 notice 142B   lib/utils/conflict-resolve.d.ts
-120 notice 677B   lib/utils/constants.d.ts
-120 notice 253B   lib/lints/eslint/doESLint.d.ts
-120 notice 271B   lib/lints/markdownlint/doMarkdownlint.d.ts
-120 notice 181B   lib/lints/prettier/doPrettier.d.ts
-120 notice 233B   lib/lints/stylelint/doStylelint.d.ts
-120 notice 201B   lib/lints/eslint/formatESLintResults.d.ts
-120 notice 204B   lib/lints/markdownlint/formatMarkdownlintResults.d.ts
-120 notice 188B   lib/lints/stylelint/formatStylelintResults.d.ts
-120 notice 117B   lib/utils/generate-template.d.ts
-120 notice 196B   lib/lints/eslint/getESLintConfig.d.ts
-120 notice 116B   lib/lints/eslint/getESLintConfigType.d.ts
-120 notice 284B   lib/lints/markdownlint/getMarkdownlintConfig.d.ts
-120 notice 208B   lib/lints/stylelint/getStylelintConfig.d.ts
-120 notice 70B    lib/lints/stylelint/getStylelintDocUrl.d.ts
-120 notice 194B   lib/utils/git.d.ts
-120 notice 290B   lib/index.d.ts
-120 notice 102B   lib/lints/eslint/index.d.ts
-120 notice 115B   lib/lints/index.d.ts
-120 notice 120B   lib/lints/markdownlint/index.d.ts
-120 notice 30B    lib/lints/prettier/index.d.ts
-120 notice 111B   lib/lints/stylelint/index.d.ts
-120 notice 135B   lib/actions/init.d.ts
-120 notice 225B   lib/utils/log.d.ts
-120 notice 72B    lib/utils/npm-type.d.ts
-120 notice 140B   lib/utils/print-report.d.ts
-120 notice 153B   lib/actions/scan.d.ts
-120 notice 2.1kB  lib/types.d.ts
-120 notice 87B    lib/actions/update.d.ts
-121 notice === Tarball Details ===
-122 notice name:          ckcs-lint-cli
-122 notice version:       1.0.13
-122 notice filename:      ckcs-lint-cli-1.0.13.tgz
-122 notice package size:  25.8 kB
-122 notice unpacked size: 139.9 kB
-122 notice shasum:        c0705c4538ed4e76019b3c0e8192ee28a17d965d
-122 notice integrity:     sha512-2ZyWuRoYn7ikg[...]2loLIf64+oCEA==
-122 notice total files:   76
-123 notice
-124 silly FetchError: request to https://registry.npmjs.org/ckcs-custom-eslint-plugin failed, reason: connect ETIMEDOUT 104.16.0.35:443
-124 silly     at ClientRequest.<anonymous> (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:130:14)
-124 silly     at ClientRequest.emit (node:events:513:28)
-124 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
-124 silly     at TLSSocket.emit (node:events:525:35)
-124 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
-124 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
-124 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
-124 silly  FetchError: request to https://registry.npmjs.org/ckcs-custom-eslint-plugin failed, reason: connect ETIMEDOUT 104.16.0.35:443
-124 silly     at ClientRequest.<anonymous> (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:130:14)
-124 silly     at ClientRequest.emit (node:events:513:28)
-124 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
-124 silly     at TLSSocket.emit (node:events:525:35)
-124 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
-124 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
-124 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
-124 silly   code: 'ETIMEDOUT',
-124 silly   errno: 'ETIMEDOUT',
-124 silly   syscall: 'connect',
-124 silly   address: '104.16.0.35',
-124 silly   port: 443,
-124 silly   type: 'system'
-124 silly }
-125 error ETIMEDOUT request to https://registry.npmjs.org/ckcs-custom-eslint-plugin failed, reason: connect ETIMEDOUT 104.16.0.35:443
-126 error FetchError: request to https://registry.npmjs.org/ckcs-custom-eslint-plugin failed, reason: connect ETIMEDOUT 104.16.0.35:443
-126 error     at ClientRequest.<anonymous> (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:130:14)
-126 error     at ClientRequest.emit (node:events:513:28)
-126 error     at TLSSocket.socketErrorListener (node:_http_client:494:9)
-126 error     at TLSSocket.emit (node:events:525:35)
-126 error     at emitErrorNT (node:internal/streams/destroy:157:8)
-126 error     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+103 silly FetchError: request to https://registry.npmjs.org/eslint-config-ckcs failed, reason: connect ETIMEDOUT 104.16.25.34:443
+103 silly     at ClientRequest.<anonymous> (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:130:14)
+103 silly     at ClientRequest.emit (node:events:513:28)
+103 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+103 silly     at TLSSocket.emit (node:events:525:35)
+103 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+103 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+103 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+103 silly  FetchError: request to https://registry.npmjs.org/eslint-config-ckcs failed, reason: connect ETIMEDOUT 104.16.25.34:443
+103 silly     at ClientRequest.<anonymous> (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:130:14)
+103 silly     at ClientRequest.emit (node:events:513:28)
+103 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+103 silly     at TLSSocket.emit (node:events:525:35)
+103 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+103 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+103 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+103 silly   code: 'ETIMEDOUT',
+103 silly   errno: 'ETIMEDOUT',
+103 silly   syscall: 'connect',
+103 silly   address: '104.16.25.34',
+103 silly   port: 443,
+103 silly   type: 'system'
+103 silly }
+104 error ETIMEDOUT request to https://registry.npmjs.org/eslint-config-ckcs failed, reason: connect ETIMEDOUT 104.16.25.34:443
+105 error FetchError: request to https://registry.npmjs.org/eslint-config-ckcs failed, reason: connect ETIMEDOUT 104.16.25.34:443
+105 error     at ClientRequest.<anonymous> (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:130:14)
+105 error     at ClientRequest.emit (node:events:513:28)
+105 error     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+105 error     at TLSSocket.emit (node:events:525:35)
+105 error     at emitErrorNT (node:internal/streams/destroy:157:8)
+105 error     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
