@@ -1,6 +1,6 @@
 {
   "name": "ckcs-commitlint-config",
-  "version": "1.0.11",
+  "version": "1.0.20",
   "main": "index.js",
   "description": " Git规范",
   "keywords": [
