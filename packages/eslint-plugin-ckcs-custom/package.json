@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ckcs-custom",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "自定义eslint插件",
   "scripts": {
     "test": "jest",
