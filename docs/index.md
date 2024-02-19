@@ -54,7 +54,7 @@ features:
 
 ## :email: 联系
 
-- **官网**: <http://encodestudio.cn>
-- **GitHub**: <https://github.com/encode-studio-fe/fe-spec>
+- **前端编码规范工程化** <https://chenkecheng1.github.io/ckcs-lint/>
+- **GitHub**: <https://github.com/chenkecheng1/ckcs-lint>
 
 </br>
