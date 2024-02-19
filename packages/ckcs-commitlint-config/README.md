@@ -18,7 +18,7 @@ npm install ckcs-commitlint-config @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-  extends: ['encode'],
+  extends: ['ckcs-commitlint-config'],
 };
 ```
 
