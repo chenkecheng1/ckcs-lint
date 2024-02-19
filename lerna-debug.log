@@ -1,8 +1,144 @@
-17 error Error: Command failed with exit code 1: git remote update
-17 error fatal: unable to access 'https://github.com/chenkecheng1/ckcs-lint.git/': Failed to connect to github.com port 443 after 8064 ms: Couldn't connect to server
-17 error     at makeError (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/error.js:60:11)
-17 error     at Function.module.exports.sync (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/execa@5.1.1/node_modules/execa/index.js:194:17)
-17 error     at Object.execSync (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/@lerna+child-process@6.6.2/node_modules/@lerna/child-process/index.js:39:16)
-17 error     at updateRemote (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/lerna@6.6.2/node_modules/lerna/dist/cli.js:5910:22)
-17 error     at isBehindUpstream (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/lerna@6.6.2/node_modules/lerna/dist/cli.js:5900:7)
-17 error     at VersionCommand.initialize (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/lerna@6.6.2/node_modules/lerna/dist/cli.js:6235:57)
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '6.6.2',
+0 silly argv   '$0': 'node_modules/lerna/dist/cli.js'
+0 silly argv }
+1 notice cli v6.6.2
+2 verbose rootPath /Users/ckc/Desktop/yinke/ckcs-lint
+3 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+4 verbose session e36f3ce917670729
+5 verbose user-agent lerna/6.6.2/node@v16.20.2+x64 (darwin)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.6.2' }
+7 verbose rootPath /Users/ckc/Desktop/yinke/ckcs-lint
+8 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+9 info current version 1.0.17
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly getCurrentBranch
+13 verbose currentBranch main
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "v1.0.17-3-g2c50044a" => {"lastTagName":"v1.0.17","lastVersion":"v1.0.17","refCount":"3","sha":"2c50044a","isDirty":false}
+20 info Looking for changed packages since v1.0.17
+21 silly checking diff packages/ckcs-commitlint-config
+22 silly no diff found in ckcs-commitlint-config
+23 silly checking diff packages/ckcs-lint-cli
+24 silly found diff in packages/ckcs-lint-cli/package.json
+25 verbose filtered diff [ 'packages/ckcs-lint-cli/package.json' ]
+26 silly checking diff packages/ckcs-markdownlint-config
+27 silly no diff found in ckcs-markdownlint-config
+28 silly checking diff packages/ckcs-stylelint-config
+29 silly no diff found in ckcs-stylelint-config
+30 silly checking diff packages/eslint-config-ckcs
+31 silly found diff in packages/eslint-config-ckcs/package.json
+32 verbose filtered diff [ 'packages/eslint-config-ckcs/package.json' ]
+33 silly checking diff packages/eslint-plugin-ckcs-custom
+34 silly found diff in packages/eslint-plugin-ckcs-custom/package.json
+35 verbose filtered diff [ 'packages/eslint-plugin-ckcs-custom/package.json' ]
+36 verbose updated ckcs-lint-cli
+37 verbose updated eslint-config-ckcs
+38 verbose updated eslint-plugin-ckcs-custom
+39 verbose git-describe undefined => "v1.0.17-3-g2c50044a"
+40 silly git-describe parsed => {"lastTagName":"v1.0.17","lastVersion":"v1.0.17","refCount":"3","sha":"2c50044a","isDirty":false}
+41 info execute Skipping releases
+42 silly lifecycle No script for "preversion" in "ckcslint", continuing
+43 silly lifecycle No script for "preversion" in "eslint-config-ckcs", continuing
+44 silly lifecycle No script for "preversion" in "eslint-plugin-ckcs-custom", continuing
+45 verbose version eslint-config-ckcs has no lockfile. Skipping lockfile update.
+46 verbose version eslint-plugin-ckcs-custom has no lockfile. Skipping lockfile update.
+47 silly lifecycle No script for "version" in "eslint-plugin-ckcs-custom", continuing
+48 silly lifecycle No script for "version" in "eslint-config-ckcs", continuing
+49 silly lifecycle No script for "preversion" in "ckcs-lint-cli", continuing
+50 verbose version ckcs-lint-cli has no lockfile. Skipping lockfile update.
+51 silly lifecycle No script for "version" in "ckcs-lint-cli", continuing
+52 silly lifecycle No script for "version" in "ckcslint", continuing
+53 silly gitAdd [
+53 silly gitAdd   'packages/eslint-plugin-ckcs-custom/package.json',
+53 silly gitAdd   'packages/eslint-config-ckcs/package.json',
+53 silly gitAdd   'packages/ckcs-lint-cli/package.json',
+53 silly gitAdd   'lerna.json'
+53 silly gitAdd ]
+54 silly gitCommit chore(release): publish v1.0.18
+55 verbose git [ 'commit', '-m', 'chore(release): publish v1.0.18' ]
+56 silly gitTag v1.0.18 git tag %s -m %s
+57 verbose git [ 'tag', 'v1.0.18', '-m', 'v1.0.18' ]
+58 silly lifecycle No script for "postversion" in "ckcs-lint-cli", continuing
+59 silly lifecycle No script for "postversion" in "eslint-config-ckcs", continuing
+60 silly lifecycle No script for "postversion" in "eslint-plugin-ckcs-custom", continuing
+61 silly lifecycle No script for "postversion" in "ckcslint", continuing
+62 info git Pushing tags...
+63 silly gitPush origin main
+64 info publish Publishing packages to npm...
+65 notice Skipping all user and access validation due to third-party registry
+66 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+67 silly getCurrentSHA
+68 verbose getCurrentSHA d12aaa171c9f44d3f824c93364e76e52ae4528aa
+69 warn lifecycle Skipping root "prepublish" because it has already been called
+70 silly lifecycle "prepare" starting in "ckcslint"
+71 info lifecycle ckcslint@undefined~prepare: ckcslint@undefined
+72 silly lifecycle "prepare" finished in "ckcslint"
+73 silly lifecycle No script for "prepublishOnly" in "ckcslint", continuing
+74 silly lifecycle No script for "prepack" in "ckcslint", continuing
+75 verbose pack-directory packages/eslint-config-ckcs
+76 verbose pack-directory packages/eslint-plugin-ckcs-custom
+77 silly lifecycle No script for "prepublish" in "eslint-config-ckcs", continuing
+78 silly lifecycle No script for "prepublish" in "eslint-plugin-ckcs-custom", continuing
+79 silly lifecycle No script for "prepare" in "eslint-config-ckcs", continuing
+80 silly lifecycle No script for "prepare" in "eslint-plugin-ckcs-custom", continuing
+81 silly lifecycle No script for "prepublishOnly" in "eslint-config-ckcs", continuing
+82 silly lifecycle "prepublishOnly" starting in "eslint-plugin-ckcs-custom"
+83 info lifecycle eslint-plugin-ckcs-custom@1.0.18~prepublishOnly: eslint-plugin-ckcs-custom@1.0.18
+84 silly lifecycle No script for "prepack" in "eslint-config-ckcs", continuing
+85 silly lifecycle No script for "postpack" in "eslint-config-ckcs", continuing
+86 verbose packed packages/eslint-config-ckcs
+87 verbose pack-directory packages/ckcs-lint-cli
+88 silly lifecycle No script for "prepublish" in "ckcs-lint-cli", continuing
+89 silly lifecycle No script for "prepare" in "ckcs-lint-cli", continuing
+90 silly lifecycle "prepublishOnly" starting in "ckcs-lint-cli"
+91 info lifecycle ckcs-lint-cli@1.0.18~prepublishOnly: ckcs-lint-cli@1.0.18
+92 silly lifecycle "prepublishOnly" finished in "eslint-plugin-ckcs-custom"
+93 silly lifecycle No script for "prepack" in "eslint-plugin-ckcs-custom", continuing
+94 silly lifecycle No script for "postpack" in "eslint-plugin-ckcs-custom", continuing
+95 verbose packed packages/eslint-plugin-ckcs-custom
+96 silly lifecycle "prepublishOnly" finished in "ckcs-lint-cli"
+97 silly lifecycle No script for "prepack" in "ckcs-lint-cli", continuing
+98 silly lifecycle No script for "postpack" in "ckcs-lint-cli", continuing
+99 verbose packed packages/ckcs-lint-cli
+100 silly lifecycle No script for "postpack" in "ckcslint", continuing
+101 verbose publish eslint-config-ckcs
+102 verbose publish eslint-plugin-ckcs-custom
+103 silly FetchError: request to https://registry.npmjs.org/eslint-config-ckcs failed, reason: connect ETIMEDOUT 104.16.24.34:443
+103 silly     at ClientRequest.<anonymous> (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:130:14)
+103 silly     at ClientRequest.emit (node:events:513:28)
+103 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+103 silly     at TLSSocket.emit (node:events:525:35)
+103 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+103 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+103 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+103 silly  FetchError: request to https://registry.npmjs.org/eslint-config-ckcs failed, reason: connect ETIMEDOUT 104.16.24.34:443
+103 silly     at ClientRequest.<anonymous> (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:130:14)
+103 silly     at ClientRequest.emit (node:events:513:28)
+103 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+103 silly     at TLSSocket.emit (node:events:525:35)
+103 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+103 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+103 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+103 silly   code: 'ETIMEDOUT',
+103 silly   errno: 'ETIMEDOUT',
+103 silly   syscall: 'connect',
+103 silly   address: '104.16.24.34',
+103 silly   port: 443,
+103 silly   type: 'system'
+103 silly }
+104 error ETIMEDOUT request to https://registry.npmjs.org/eslint-config-ckcs failed, reason: connect ETIMEDOUT 104.16.24.34:443
+105 error FetchError: request to https://registry.npmjs.org/eslint-config-ckcs failed, reason: connect ETIMEDOUT 104.16.24.34:443
+105 error     at ClientRequest.<anonymous> (/Users/ckc/Desktop/yinke/ckcs-lint/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:130:14)
+105 error     at ClientRequest.emit (node:events:513:28)
+105 error     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+105 error     at TLSSocket.emit (node:events:525:35)
+105 error     at emitErrorNT (node:internal/streams/destroy:157:8)
+105 error     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
